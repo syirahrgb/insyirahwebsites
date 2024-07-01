@@ -1,0 +1,105 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #b2f1fc;
+    color: #0c0c0c;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(253, 151, 168, 0.979);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f369b5;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(132, 134, 15, 0.5);
+}
+
+.personal-info, .contact-info, .education, .hobbies {
+    margin-bottom: 40px;
+}
+
+.personal-info p, .contact-info p, .education p, .hobbies p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #f0915a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Advanced Features */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > * {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #f73978;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    background-color: rgb(241, 182, 207);
+}
+
+.container > *:last-child {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #a53584;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.personal-info p, .contact-info p, .education p, .hobbies p {
+    color: #5e1414;
+}
+
+ul li {
+    color: #754356;
+}
+
+body {
+    background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(243, 214, 214, 0.8); /* Adjust opacity as desired */
+}
